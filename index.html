@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Capston 1 | Portfolio</title>
+	
+	<!-- bootstrap css -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+
+	<!-- google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+	<!-- navbar start -->
+  <nav class="container-fluid navbar navbar-expand-lg sticky-top">
+    <div class="navbar-nav ms-auto container d-flex flex-row justify-content-center gap-3 gap-sm-5 p-2">
+			<a class="nav-link" href="#landing">Home</a>
+			<a class="nav-link" href="#projects">My Projects</a>
+			<a class="nav-link" href="#tools">Tools</a>
+			<a class="nav-link" href="#contact">Contact</a>
+		</div>
+  </nav>
+	<!-- navbar end -->
+	 
+	<!-- Landing start -->
+	 <section id="landing">
+		<div class="container d-flex gap-2">
+			<div class="img-container">
+				<img src="https://lh3.googleusercontent.com/a/ACg8ocJkzVIbOKDBTDULx5PxWjgJx7EV8PH5R1Szk0MT8WxjpNrdGynp=s432-c-no" alt="profile" class="img-fluid">
+			</div>
+			<div class="desc-container">
+				<h1>Junfel Velasco</h1>
+				<h2>Full Stack Web Developer</h2>
+				<p>I'm Junfel, a  3D Artist  switching into  Full-stack Developer  using MERN Stack while continue learning other latest and cutting-edge technology.</p>
+			</div>
+		</div>
+	 </section>
+	<!-- Landing end -->
+	 
+	<!-- Project start -->
+	<section id="projects">
+		<h2>My Projects</h2>
+		<div class="container d-flex justify-content-center pt-5">
+			<div class="card-container">
+				<div class="card">
+					<img src="./images/network.jpg" alt="" class="img-fluid">
+					<h3>E-commerce API Documentation</h3>
+					<p>MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.</p>
+				</div>
+				<div class="card">
+					<img src="./images/backup.jpg" alt="" class="img-fluid">
+					<h3>Course Booking API Documentation</h3>
+					<p>Transform your ideas into powerful, high-performing websites with tailored web development solutions. I build responsive, user-friendly, and scalable websites that meet your business goals and deliver a seamless user experience.</p>
+				</div>
+				<div class="card">
+					<img src="./images/mobdev.jpg" alt="" class="img-fluid">
+					<h3>Course Booking App</h3>
+					<p>Bring your ideas to life with high-quality, detail-rich 3D models and visualizations tailored to your creative or business needs. I specialize in creating accurate, optimized, and visually compelling 3D assets for a wide range of industries.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Project end -->
+	 
+	<!-- Tools start -->
+	 <section id="tools">
+		<h2>Tools</h2>
+		<div class="container d-flex justify-content-center pt-5">
+			<div class="tools-card-container">
+				<div class="card">
+					<h3>Front End</h3>
+					<img src="./images/frontend.jpg" alt="" class="img-fluid">
+				</div>
+				<div class="card">
+					<h3>MERN</h3>
+					<img src="./images/mern.jpg" alt="" class="img-fluid">
+				</div>
+				<div class="card">
+					<h3>Other Tools</h3>
+					<img src="./images/other-tools.jpg" alt="" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	 </section>
+	<!-- Tools end -->
+	<!-- Contact start -->
+	
+	 
+	<!-- Contact start -->
+	<section id="contact" class="container">
+		<div class="contact-img-container map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d134791.2482636985!2d123.90499886950131!3d10.311577792968777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999fed973c41b%3A0x1ae9af03b1a02e2c!2sLapu-lapu%20City%2C%20Cebu!5e1!3m2!1sen!2sph!4v1750138873190!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+		<div class="contact-form-container">
+			<div class="contact-description">
+				<h2>Contact Us</h2>
+				<!-- <h3>Keep in touch by contacting me!</h3> -->
+			</div>
+			<form class="contact-form">
+				<div>
+					<label for="name">Name</label>
+					<input type="text" placeholder="Name" class="contact-input">
+				</div>
+				
+				<div>
+					<label for="email">Email Address</label>
+					<input type="text" placeholder="your@email.com" class="contact-input">
+				</div>
+				<div>
+					<textarea name="message" rows="5" placeholder="Your message here..." id="contact-message">
+					</textarea>
+				</div>
+				<div class="contact-btn-container">
+					<button class="contact-btn">Submit</button>
+					<div class="social-icon-wrapper">
+						<div>
+							<img width="30" height="30" class="img-fluid" src="data:image/png;base64,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" alt="github">
+						</div>
+						<div>
+							<img width="30" height="30" class="img-fluid" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="github">
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- Contact end -->
+	 
+	<footer class="text-center" id="footer">
+		<span> Junfel Velasco</span>
+		<span>Full Stack Web Developer</span>
+		<span>&copy All rights reserved 2025</span>
+	</footer>
+
+	<!-- bootstrap js -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
